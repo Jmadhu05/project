@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function Sayhello(){ return "Hello world";}
+       
+       // console.log(Sayhello())
+
+       let a=5
+       let b=6
+
+        function multiply(a,b){
+            return a*b
+        }
+
+        //console.log(multiply('ram'))  //give incorrect arguments can return incorrect answer
+
+        //console.log(multiply(a,b))
+
+        //console.log(multiply(5,6))
+        
+        function checkage(age){
+            if (age<18){
+                return "Too young"
+            }
+            return "Access granted"
+        }
+
+        answer=checkage(12)
+       // console.log(answer)
+
+       function subtract(a,b){
+        return a-b
+       }
+       let x1=subtract(10,5)
+       let x2=subtract(5,10)
+       //console.log(x1,x2)
+
+       function mufunction (w,e){
+        if (e===undefined){
+            e=2
+        }
+        return w*e
+       }
+
+       //console.log(mufunction(2))
+
+
+       const person ={
+        Name :"ram",
+        class:"5",
+        rollno:'123',
+        city:"sikar"
+       }
+
+       //console.log(person.Name,person.city)
+
+
+       const Person={
+        first :"John",
+        last:"Doe",
+        age:50,
+        fullname:function(){
+            return this.first+" "+this.last
+        }
+       }
+
+       //console.log(Person.fullname())
+
+       const PERSON={
+        firstname:"ram",
+        lastname:"doe",
+        age:40,
+
+       }
+       PERSON.nationality="English"
+
+       //console.log(PERSON.firstname +" is " + PERSON.nationality )
+
+       delete PERSON.nationality
+       
+      //console.log(PERSON.firstname +" is " + PERSON.nationality)
+
+
+      let  name="Maruti"
+      const Number=80
+      var city="America" 
+
+      function myfunction(){
+        var carname ="volvo"  
+        console.log(name)
+        console.log(Number)
+        console.log(city)
+      }
+      console.log(myfunction())
+      function myfunction1(){
+        let carname ="Volvo"
+      }
+      function myfunction2(){
+        const carname ="Volvo"
+      }
+
+    </script>
+</body>
+</html>

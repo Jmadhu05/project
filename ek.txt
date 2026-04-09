@@ -1,0 +1,32 @@
+phle aapne folder me allow host me (*) likhe or myproject me
+do command chalye 
+
+pip install gunicorn whitenoise psycopg2-binary
+pip freeze > requirements.txt
+
+build.sh file banao myproject me useme ye likho
+1=    pip install -r requirements.txt
+2=    python manage.py collectstatic --noinput
+3=  python manage.py migrate
+
+
+git up command
+
+ new folder create krke usme cmd open krke git command chalo
+
+1= git init
+2= git clone (github ki repo ki url  link)
+
+new folder me django folder me file copy krke new folder me paste kro or fir 
+usme jo github ka folder banega usme cmd khol ke 
+
+3= git add .
+4= git commit -m "fisrt commit"
+5= git push 
+
+eske baad git hub se link copy krke render me webserver me jake public me link paste
+krke connect krke usme build command me (./build.sh) likhenge or startcommand me gunicorn projectname.wsgi likh kre free wale pr select  krke use deploy
+denge 
+agr kuch change krna hai to sbse phle jo main folder me usme se myproject wala sara contanct copy krke github wale folder me copy krkek 
+paste kr de fir cmd khole fir (git add .  , git commit -m "your massege"  , git push ) fir render ko open krke use apni event me jake  
+manual deploy pr  latest commit ko deploy kr denge fir change ho jayega 

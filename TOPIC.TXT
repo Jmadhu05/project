@@ -1,0 +1,13 @@
+python:-
+
+ python classes (oops)
+python function(decorator,recursion,scope,GENERATORS)
+ 
+
+
+
+HOST KARNE KE BAAD DATABASE KAHA DEKHE 
+
+CSS:- ANIMATIONS,PAGINATION
+
+SQL:- SUBQUERY,CASE NULL FUNCTIONS,FOREIGN KEY ,INDEX,VIEWS

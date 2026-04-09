@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        /*const cars =["Apple","Mango","Grapes"]
+        console.log(cars)
+        console.log(cars.toString())
+        console.log(typeof(cars))
+
+        const person = {firstname:"John", lastname:"Doe",age:45}
+        console.log(person.firstname)
+
+
+        const fruits=["Orange","Apple","Mango"]
+        let len =fruits.length
+        console.log(len)
+        let fruit=fruits[0]
+        console.log(fruit)
+        console.log(fruits[fruits.length-1])
+
+        fruits.push("Lemon")
+        console.log(fruits)
+        fruits[fruits.length]="Grapes"
+        console.log(fruits)
+        fruits[7]="lemon"
+        console.log(fruits)
+        console.log(fruits[5]) // undefined 
+        
+        const  Person =[]
+        Person["firstname"]="John"
+        Person["Lastname"]="Doe"
+        Person["age"]=46
+        console.log(Person.length)
+        console.log(typeof(Person))
+
+        const points=new Array(40,100,1,5,25,10)
+        console.log(points)
+
+        console.log(Array.isArray(Person))  //check given value is array ornot
+        */
+
+
+
+        const myobj ={
+            name : "John",
+            age : 30 ,
+            cars :[
+                {name:"Ford" , models:["Fiesta","Focus","Mustang"]},
+                {name:"BMW" , models:["320","X3","X5"]},
+                {name :"Fiat",models:["500","Panda"]}
+            ]
+        }
+
+        console.log(myobj.cars[0].models[2])
+
+        // array method
+        const Fruits=["Banana","Orange","Apple","Mango"]
+        let size =Fruits.length   //length method 
+        console.log(size)
+
+
+        //---------------------------
+        delete Fruits[1]
+        console.log(Fruits)  //array ka index element delete krta hai but length same rhti  hai 
+
+
+ 
+        //---------------------
+
+        Fruits.length=2
+        console.log(Fruits)
+
+       <!------------------->
+        let mylist =Fruits.toString()  //return the elements of an array as a comma separated string
+
+        console.log(mylist)
+
+       //---------------------------------
+        console.log(Fruits.at(1))  //specific index ka element return krne ke liye 
+
+       
+       //---------------------------------
+
+        console.log(Fruits.join("-")) //array ke element ko string me convert krta hai custom separator ke sath 
+
+       
+        
+       //---------------------------------
+
+        let veg=["Apple","Mango","Banana"]
+        veg.pop()  //remove last index element and return krta hai 
+        veg.push("Orange") //add element last index and new length return 
+        console.log(veg)
+
+      
+
+        //----------------------------
+        let arr1=[1,2,3]
+        let arr2=[4,5]
+
+        let arr3=arr1.concat(arr2)  //do ya jyada arrays ko combine krta hai or new array return krta hai 
+        console.log(arr3)
+
+        //-------------------
+        let arr =[1,2,3,4,5]
+        arr.copyWithin(0,3,4)
+        console.log(arr)
+
+
+
+        /*
+       //---------------------------------
+        let nums =[10,20,30]
+        nums.shift()   //remove element at the first index
+        nums.unshift(4) // add 4 at start index
+        console.log(nums)
+ 
+
+        
+       //---------------------------------
+        let arr =[1,2,3,4,5]
+        let sliced=arr.slice(1,4)
+        */
+
+
+
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
